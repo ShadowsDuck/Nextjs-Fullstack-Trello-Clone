@@ -12,8 +12,8 @@ const Logo = () => {
   return (
     <Link href="/">
       <div className="hidden items-center gap-2 transition hover:opacity-75 md:flex">
-        <Image src="/logo.png" alt="logo" height={30} width={30} />
-        <p className={cn('pt-[2px] text-lg text-neutral-700', headingFont.className)}>Taskify</p>
+        <Image src="/logo.svg" alt="logo" height={25} width={25} />
+        <p className={cn('pt-[5px] text-lg text-neutral-700', headingFont.className)}>Taskify</p>
       </div>
     </Link>
   )
